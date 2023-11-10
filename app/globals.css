@@ -92,7 +92,7 @@
 }
 
 .car-card__content {
-  @apply w-full flex justify-between items-start gap-2;
+  @apply w-full flex justify-between items-start;
 }
 
 .car-card__content-title {
