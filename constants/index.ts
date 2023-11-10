@@ -99,3 +99,22 @@ export const footerLinks = [
     ],
   },
 ];
+
+export const navLinks = [
+  {
+    label: "About us",
+    to: "/",
+  },
+  {
+    label: "Cars",
+    to: "/",
+  },
+  {
+    label: "Partners",
+    to: "/",
+  },
+  {
+    label: "Contact",
+    to: "/",
+  },
+];

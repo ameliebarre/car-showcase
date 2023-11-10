@@ -4,7 +4,13 @@ import Image from "next/image";
 import CustomButton from "./CustomButton";
 
 const Hero = () => {
-  const handleScroll = () => {};
+  const handleScroll = () => {
+    const nextSection = document.getElementById("discover");
+
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="hero">
@@ -18,7 +24,7 @@ const Hero = () => {
         </p>
         <CustomButton
           title={"Explore cars"}
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          containerStyles="bg-blue-800 hover:bg-blue-950 text-white rounded-full mt-10"
           handleClick={handleScroll}
         />
       </div>
